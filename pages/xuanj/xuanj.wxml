@@ -1,0 +1,31 @@
+<!--pages/xuanj/xuanj.wxml-->
+<form bindsubmit="formBindsubmit" bindreset="formReset" class="{{xs?'hide':'show'}}">
+  <view style="display:flex;">
+    <input class='input_id' name="userName" placeholder="请输入投票ID" />
+  </view>
+  <view style="display:flex;margin-top:10px;">
+    <button class='gong3' style="width:30%;" formType="submit" >进入</button>
+  </view>
+  <view class='view_c'>
+      <view bindtap='xianc'>创建投票</view>
+  </view>
+</form>
+
+<form class="hide{{xs?'show':''}}" id='form_c'>
+  <view style='margin-top:20%;'></view>
+  <view style="display:flex;">
+    <input class='input_id' style='margin-top:5%;' name="userName" placeholder="请输入投票ID" />
+  </view>
+  <view style="display:flex;">
+    <input class='input_id' style='margin-top:5%;' name="userName" placeholder="请输入被选人" />
+  </view>
+  <view style="display:flex;">
+    <input class='input_id' style='margin-top:5%;' name="userName" placeholder="请输入每人投票数" />
+  </view>
+  <view style="display:flex;margin-top:10px;">
+    <button class='gong4' style="width:30%;" formType="submit" >创建</button>
+  </view>
+  <view class='view_c'>
+      <view bindtap='xianc'>进入投票</view>
+  </view>
+</form>

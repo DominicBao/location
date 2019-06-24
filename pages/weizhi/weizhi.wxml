@@ -1,0 +1,5 @@
+<!--pages/weizhi/weizhi.wxml-->
+<text>pages/weizhi/weizhi.wxml</text>
+<map id="map" markers="{{markers}}" longitude="{{heng}}" latitude="{{zong}}" scale="14" bindcontroltap="controltap"  bindmarkertap="markertap"   bindregionchange="regionchange" show-location style="width: 100%; height: 350px;">
+</map>
+

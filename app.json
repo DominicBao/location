@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/zhuye/zhuye",
+    "pages/jipiao/jipiao",
+    "pages/xuanj/xuanj",
+    "pages/xuant/xuant",
+    "pages/weizhi/weizhi"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#678cf1",
+    "navigationBarTitleText": "位置共享",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/zhuye/zhuye",
+        "text": "工 具",
+        "iconPath": "image/gongju1.png",
+        "selectedIconPath": "image/gongju.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日 志",
+        "iconPath": "image/rizhi1.png",
+        "selectedIconPath": "image/rizhi.png"
+      }
+    ]
+  }
+}
